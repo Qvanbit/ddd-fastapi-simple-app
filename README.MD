@@ -1,13 +1,13 @@
-# MyApp
+# ddd-fastapi-simple-app
 
-MyApp - это веб-приложение, созданное с использованием FastAPI. Оно использует MongoDB в качестве хранилища данных, Kafka для обработки сообщений и Redis для кеширования данных.
+ddd-fastapi-simple-app - это веб-приложение, созданное с использованием FastAPI. Оно использует MongoDB в качестве хранилища данных, Kafka для обработки сообщений и Redis для кеширования данных.
 
 ## Установка
 
 1. **Клонируйте репозиторий:**
     ```sh
-    git clone https://github.com/yourusername/myapp.git
-    cd myapp
+    git clone https://github.com/Qvanbit/ddd-fastapi-simple-app
+    cd ddd-fastapi-simple-app
     ```
 
 2. **Создайте `.env` файл:**
