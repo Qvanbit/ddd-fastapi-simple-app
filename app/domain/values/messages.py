@@ -12,7 +12,7 @@ class Text(BaseValueObject):
         if len(self.value) > 255:
             raise TextTooLongException(self.value)
         
-    def as_generic_type(self):
+    def as_generic_type(self) -> str:
         return str(self.value)
     
 @dataclass(frozen=True)
